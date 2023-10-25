@@ -13,6 +13,12 @@ body{
     background-color: rgb(224, 224, 224);
 }
 
+li{
+    padding-left: 5px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
 /* fine general */
 
 /* inizio header */
@@ -65,3 +71,63 @@ main{
     color: white;
     border-color: lightblue;
 }
+
+#list-container{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.check{
+    border-radius: 50%;
+    border: 1px solid grey;
+    color: grey;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.done{
+    border-color: green;
+    color: green;
+}
+
+.not-done{
+    border-color: red;
+    color: red;
+}
+
+.list-box{
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+#lightblue-list-box{
+    background-color: lightblue;
+}
+
+#purple-list-box{
+    background-color: purple;
+}
+
+#green-list-box{
+    background-color: green;
+}
+
+#orange-list-box{
+    background-color: orange;
+}
+
+#pink-list-box{
+    background-color: pink;
+}
+
+#lightgreen-list-box{
+    background-color: lightgreen;
+}
+
+/* fine main */
