@@ -32,3 +32,36 @@ header h1, header img{
 }
 
 /* fine header */
+
+/* inizio main */
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 50px; 
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.buttons{
+    margin-bottom: 2px;
+}
+
+.main-button{
+    border-radius: 5px;
+    padding: 5px 8px;
+    border-color: white;
+    background-color: white;
+}
+
+#special-button{
+    background-color: lightblue;
+    color: white;
+    border-color: lightblue;
+}
