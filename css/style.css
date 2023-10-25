@@ -6,3 +6,29 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/* inizio general */
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+/* fine general */
+
+/* inizio header */
+
+header{
+    background-color: white;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: inline-block;
+}
+
+header h1, header img{
+    vertical-align: middle;
+}
+
+/* fine header */
